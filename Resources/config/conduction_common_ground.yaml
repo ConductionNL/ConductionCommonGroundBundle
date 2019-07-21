@@ -1,0 +1,8 @@
+
+        
+services:    
+    # please note that last definitions always *replace* previous ones
+    conduction.commonground.bag:
+        class: App\Conduction\CommonGroundBundel\Service\KadasterService
+        arguments: 
+            - []
