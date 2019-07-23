@@ -1,5 +1,7 @@
 # ConductionCommonGroundBundle
-This bundle adds VNG Common Ground functionality to you Symfony API Platforapplication.
+This bundle adds VNG Common Ground functionality to you Symfony API Platform application. It aims to extend this platform by providing addition features either inherent to common ground (like the VNG API Standard) or typical for the Dutch Application landscape (like BSN checks and KVK lookups).   
+
+This bundle is maintained as a free of charge open-source project by [conduction](http://conduction.nl), a Dutch platform oriented startup. 
 
 **Requires**: PHP 5.3+ or PHP 7.0+
 
@@ -15,7 +17,7 @@ Symfony flex aproval for this bundle is still underway so right now it needs to 
 composer require conduction/commongroundbundle
 ```
 
-Afther installation active the bundle by adding it to config/bundles.php of your symfony installation
+After installation activate the bundle by adding it to config/bundles.php of your symfony installation
 
 ``` PHP
 return [
@@ -24,9 +26,9 @@ return [
 ];
 ```
 
-Aditionaly you will need to copy the parameter file conduction_common_ground.yaml (from resources/config) to config/packages folder of your application
+Additionally you will need to copy the parameter file conduction_common_ground.yaml (from resources/config) to config/packages folder of your application
 
 
 ## Commonground
 
-Common ground is a Dutch governmental initiative exploring the posibilaties of using open source, and rest api's as a backbone for governement and public architecture
+Common ground is a Dutch governmental initiative exploring the possibilities of using open source, and rest api's as a backbone for government and public architecture
