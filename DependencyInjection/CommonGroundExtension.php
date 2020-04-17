@@ -28,17 +28,18 @@ class CommonGroundExtension extends Extension
 				$container,
 				new FileLocator(__DIR__.'/../Resources/config')
 				);
-		
+
 		$loader->load('conduction_common_ground.yaml');
-		*/
-		// Loading the configurations		
 		
-		
-		$configuration = new Configuration();		
+		// Loading the configurations
+
+
+		$configuration = new Configuration();
 		$config = $this->processConfiguration($configuration, $configs);
-		
+
 		// This is the KEY TO YOUR ANSWER
 		$container->setParameter( 'conduction.commonground.brp.location', $config['bag']['location']);
 		$container->setParameter( 'conduction.commonground.brp.apikey', $config['bag']['apikey']);
+		*/
 	}
 }
